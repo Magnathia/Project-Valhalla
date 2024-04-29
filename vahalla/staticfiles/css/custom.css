@@ -1,0 +1,68 @@
+/* custom.css */
+
+/* Body Styles */
+body {
+    background-color: #212121 !important; /* Charcoal black background color */
+    color: #d8dee9 !important; /* Light text color */
+    font-family: 'Inter', sans-serif !important; /* Use Inter font for consistency */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #2e3440 !important; /* Dark background color */
+}
+
+.navbar-brand {
+    color: #d8dee9 !important; /* Light text color */
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #d8dee9 !important; /* Light text color */
+}
+
+/* Form Styles */
+.profile-form {
+    margin-top: 50px;
+}
+
+.profile-form .card-header {
+    background-color: #2e3440;
+    color: #d8dee9;
+}
+
+.profile-form .card-body {
+    background-color: #3b4252 !important; /* Blueish background color */
+    color: #d8dee9;
+}
+
+.profile-form label {
+    color: #d8dee9;
+}
+
+.profile-form input[type="text"],
+.profile-form input[type="email"],
+.profile-form textarea {
+    background-color: #2e3440; /* Dark background color */
+    color: #d8dee9;
+    border-color: #4c566a;
+}
+
+.profile-form input[type="text"]:focus,
+.profile-form input[type="email"]:focus,
+.profile-form textarea:focus {
+    background-color: #5e81ac; /* Lighter background color */
+    color: #eceff4;
+    border-color: #5e81ac;
+}
+
+.profile-form button[type="submit"] {
+    background-color: #5e81ac; /* Primary color */
+    color: #eceff4;
+    border-color: #5e81ac;
+}
+
+.profile-form button[type="submit"]:hover {
+    background-color: #81a1c1; /* Lighter primary color */
+    border-color: #81a1c1;
+}
